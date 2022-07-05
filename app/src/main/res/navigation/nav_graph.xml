@@ -54,5 +54,11 @@
         android:id="@+id/fragment6"
         android:name="com.example.homework2.Fragment6"
         android:label="fragment_6"
-        tools:layout="@layout/fragment_6" />
+        tools:layout="@layout/fragment_6">
+        <argument
+            android:name="ClassName"
+            app:argType="string"
+            android:defaultValue="null" />
+    </fragment>
+
 </navigation>

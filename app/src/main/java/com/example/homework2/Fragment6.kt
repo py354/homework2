@@ -41,7 +41,7 @@ class Fragment6 : Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
         val param = arguments?.getString(CLASS_NAME_PARAM) ?: "Ошибка"
-        Snackbar.make(view, param, Snackbar.LENGTH_LONG)
+        Snackbar.make(view, param, Snackbar.LENGTH_LONG).show()
     }
 
     companion object {
